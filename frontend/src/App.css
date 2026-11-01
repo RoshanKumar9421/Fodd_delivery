@@ -1,0 +1,26 @@
+/* App-specific custom animations and micro-interactions */
+@keyframes subtle-fade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: subtle-fade 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom leaflet popup stylings */
+.leaflet-popup-content-wrapper {
+  border-radius: 1rem !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+  padding: 4px !important;
+}
+
+.leaflet-popup-tip {
+  background: white !important;
+}

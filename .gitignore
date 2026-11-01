@@ -1,0 +1,14 @@
+# Machine Learning Models
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables
+.env
