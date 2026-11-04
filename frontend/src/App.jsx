@@ -320,7 +320,7 @@ export default function App() {
             <div className="flex items-center gap-2 mb-2">
               <span className="px-3 py-1 rounded-full text-xs font-extrabold bg-red-50 text-[#E23744] border border-red-100 inline-flex items-center gap-1.5">
                 <Flame className="w-3.5 h-3.5 fill-[#E23744]" />
-                Zomato-Inspired Precision Engine
+                {/* Zomato-Inspired Precision Engine */}
               </span>
               <span className="text-xs text-gray-400">•</span>
               <span className="text-xs text-gray-500 font-medium">

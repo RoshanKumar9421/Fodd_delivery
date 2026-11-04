@@ -20,7 +20,7 @@ export default function Navbar({
           <div>
             <div className="flex items-center gap-2">
               <span className="text-2xl font-extrabold tracking-tight text-gray-900 font-sans">
-                Foodie<span className="text-[#E23744]">Predict</span>
+               Quick<span className="text-[#E23744]">Bite</span>
               </span>
               <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-red-50 text-[#E23744] border border-red-100">
                 AI ETA
