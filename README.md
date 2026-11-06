@@ -17,9 +17,7 @@ source .venv/bin/activate
 # Run with uvicorn (or python main.py)
 uvicorn main:app --reload --port 8000
 ```
-- **API URL**: http://127.0.0.1:8000
-- **Docs (Swagger)**: http://127.0.0.1:8000/docs
-- **Health Check**: http://127.0.0.1:8000/
+
 
 ### 2. Frontend (React + Vite)
 The frontend is a React application built with Vite and styled for responsive desktop and mobile views.
